@@ -5,6 +5,7 @@ OptiMarket, Java dili kullanılarak Android Studio ortamında geliştirilmiş, n
 📝 Proje Hakkında
 Bu uygulama, kullanıcıların dinamik bir ticaret döngüsü içerisinde ürün alıp satabildiği bir simülasyon sunar. Projenin temel amacı, veri yönetimi, kullanıcı arayüzü etkileşimi ve mobil uygulama yaşam döngüsü gibi temel Android geliştirme süreçlerini uygulamalı olarak sergilemektir.
 
+
 ✨ Temel Özellikler
 Dinamik Ticaret: Belirli tipteki ürünlerin güncel fiyatlar ve stok durumuna göre alım-satım işlemleri.
 
@@ -14,8 +15,8 @@ Kullanıcı Bakiyesi: İşlemlere bağlı olarak güncellenen sanal cüzdan sist
 
 Nesne Yönelimli Mimari: Modüler, sürdürülebilir ve geliştirilebilir kod yapısı.
 
-🛠️ Kullanılan Teknolojiler
 
+🛠️ Kullanılan Teknolojiler
 Dil: Java 
 
 IDE: Android Studio
@@ -23,6 +24,7 @@ IDE: Android Studio
 Konsept: Object Oriented Programming (OOP)
 
 UI: Android XML (Layouts & Widgets)
+
 
 🚀 Kurulum
 Projeyi bilgisayarınıza clone'layın: git clone https://github.com/mehmetk0ksal/OptiMarket.git 
