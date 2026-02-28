@@ -1,9 +1,9 @@
 # OptiMarket 🛒
 
-OptiMarket, Java dili kullanılarak Android Studio ortamında geliştirilmiş, nesne yönelimli programlama (OOP) prensiplerini temel alan bir pazar yeri simülasyonu mobil uygulamasıdır. 
+OptiMarket, Java dili kullanılarak Android Studio ortamında geliştirilmiş ve nesne yönelimli programlama (OOP) prensiplerini temel alan bir pazar yeri simülasyonu mobil uygulamasıdır. 
 
 ## Proje Hakkında
-Bu uygulama, kullanıcıların dinamik bir ticaret döngüsü içerisinde ürün alıp satabildiği bir simülasyon sunar. Projenin temel amacı, veri yönetimi, kullanıcı arayüzü etkileşimi ve mobil uygulama yaşam döngüsü gibi temel Android geliştirme süreçlerini uygulamalı olarak sergilemektir.
+Bu uygulama, kullanıcıların dinamik bir ticaret döngüsü içerisinde ürün alıp satabildiği bir simülasyon sunar. Projenin temel amacı veri yönetimi, kullanıcı arayüzü etkileşimi ve mobil uygulama yaşam döngüsü gibi temel Android geliştirme süreçlerini uygulamalı olarak sergilemektir.
 
 
 ## Temel Özellikler
