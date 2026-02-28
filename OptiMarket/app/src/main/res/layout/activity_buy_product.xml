@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB">
+
+    <TextView
+        android:id="@+id/CatalogListTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Product Catalog"
+        android:textColor="#F60757"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCatalog"
+        android:layout_width="415dp"
+        android:layout_height="540dp"
+        android:contentDescription="List of products in the market"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CatalogListTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textCurrentBalance"
+        android:layout_width="176dp"
+        android:layout_height="44dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/priceFilterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#F60757"
+        android:text="Price Filter"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textCurrentBalance"
+        app:layout_constraintEnd_toStartOf="@+id/categoryFilterButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/categoryFilterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#F60757"
+        android:text="Filter Category"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/lowerBoundEditText"
+        android:layout_width="130dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Lower Bound"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/upperBoundEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/upperBoundEditText"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Upper Bound"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/priceFilterButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/categoryEditText"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Category"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/categoryFilterButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toEndOf="@+id/upperBoundEditText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/clearFilterButton"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#F60757"
+        android:text="Clear Filter"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/categoryEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toEndOf="@+id/lowerBoundEditText"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
